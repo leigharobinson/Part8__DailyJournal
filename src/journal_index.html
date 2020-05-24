@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../src/styles/daily_journal.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="main__background">
+    <body>
+        <div id="test-border" >
+            <header>
+                <!--THIS IS WHERE I GOT THE ONMOUSEOVER ONOUSEOUT INFORMATION https://www.youtube.com/watch?v=_rkMYalklOI -->
+                <div id="test-borderOne" class="css-selector">
+                    <img src="styles/Images/me-cropped-Photo-BB-W.jpg" onmouseover="this.src='styles/Images/Me-cropped-Photo-Color.jpg'" onmouseout="this.src='styles/Images/me-cropped-Photo-BB-W.jpg'"
+                    alt="picture of Leigha Robinson" class="profile-image">
+                </div>
+                <div id="h1Container" class="css-selector">
+                    <h1 class="replacementClass css-selector"  > Leigha's NSS Diary</h1>
+                </div>
+            </header>
+        </div>
+    <div id="body_mainDivide" class="plainBackground_BlackBorder">
+        <div id="test_secondDivide" class="css-selector">  
+            <div class="plainBackground_WhiteBorder">
+                <h1> Daily Journal</h1>
+                <form action="" id="form">
+                    <fieldset>
+                        <label for="journalDate">Date of entry</label>
+                        <input type="date" name="journalDate" id="journalDate">
+                    </fieldset>
+                    <fieldset>
+                        <label for="conceptsCoverd">Concepts covered</label>
+                        <input type="text" name="conceptsCovered" id="conceptsCovered">
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalEntry">Journal entry</label>
+                        <input type="textarea" name="journalEntry" id="journalEntry">
+                    </fieldset>
+                    <fieldset>
+                        <label for="mood">Mood of the day</label>
+                        <select name="mood" id="mood"> 
+                            <option value="happy">happy</option>
+                            <option value="fine">fine</option>
+                            <option value="sad">sad</option>
+                        </select>
+                    </fieldset>
+                    <button id="recordJournalEntry">Record Journal Entry</button>
+                </form>
+            </div>
+        </div>
+        <div id="test_secondDivide" class="css-selector" >
+            <div class="plainBackground_WhiteBorder">
+                <fieldset>
+                    <legend class="border">
+                        <h2 class="border">Feelings Sort button</h2> 
+                        <h3 class="border">(unfortunately not a Sort Feelings button)</h3>
+                    </legend>
+                        <div class="radio__buttons"> 
+                            <div>
+                                <input class="radioButtons" type="radio" id="happy" name="mood" value="happy">
+                                <label for="happy">Happy</label>
+                            </div>
+                            <div>
+                                <input class="radioButtons" type="radio" id="fine" name="mood" value="fine">
+                                <label for="fine">Fine</label>
+                            </div>
+                            <div>
+                                <input class="radioButtons" type="radio" id="sad" name="mood" value="sad">
+                                <label for="sad">Sad</label>
+                            </div>
+                        </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+        <!-- <article id="newContainer"></article> -->
+        <div class="entryLogDiv css-selector">
+            <article class="entryLog"></article>
+        </div>
+        
+        <footer>
+            <!-- <script src="../src/scripts/data.js"></script>
+            <script src="../src/scripts/entriesDOM.js"></script>
+            <script src="../src/scripts/entryComponent.js"></script> -->
+            <script type="module"" src="../src/scripts/journal.js"></script>
+        </footer>
+    </body>
+</div>
+    
+    <footer>
+        <!-- <script src="../src/scripts/data.js"></script>
+        <script src="../src/scripts/entriesDOM.js"></script>
+        <script src="../src/scripts/entryComponent.js"></script> -->
+        <script type="module"" src="../src/scripts/journal.js"></script>
+    </footer>
+</body>
+
+</html>

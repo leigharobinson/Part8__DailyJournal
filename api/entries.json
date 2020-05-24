@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "dateOfEntry": "Moday, April 6th, 2020",
+      "conceptsCovered": "John Wark, Instructors, classmates, getting our computers set up, .zshrc, how to make directory, how to navigate the terminal",
+      "longForm": "I learned a lot of stuff it was cool, love that my compter is all set up and I'm learning how to navigate it like a programmer",
+      "myMood": "happy"
+    },
+    {
+      "id": 2,
+      "dateOfEntry": "Tuesday, April 7th, 2020",
+      "conceptsCovered": "Pluggins, Aliases, watched Cohort 38's frontend Demo Day, CRUD, Keyboard Shortcuts",
+      "longForm": "I learned a lot of stuff it was cool.",
+      "myMood": "happy"
+    },
+    {
+      "id": 3,
+      "dateOfEntry": "Wednesday, April 8th, 2020",
+      "conceptsCovered": "Serving up Data, BEM (block, element, modifier), Developer tools ('dev tools')",
+      "longForm": "I learned a lot of stuff it was cool and a lot.",
+      "myMood": "happy"
+    },
+    {
+      "id": 14,
+      "dateOfEntry": "Friday, April 17th, 2020",
+      "conceptsCovered": "Arrays, Objects, how to access properties with dot notation or brackett notation",
+      "longForm": "I learned a lot of stuff it was cool and a lot.",
+      "myMood": "fine"
+    },
+    {
+      "dateOfEntry": "2020-05-11",
+      "conceptsCovered": "Editing Data",
+      "longForm": "Bryan Showed us how to edit data",
+      "myMood": "happy",
+      "id": 15
+    },
+    {
+      "dateOfEntry": "2020-05-19",
+      "conceptsCovered": "Watched Cohort 39 Front End Capstone, Linkedin Profile Due, Day 3 Nutshell",
+      "longForm": "Had a hard time paying attention to capstones, worried about Nutshell project. I don't want to let my team down ",
+      "myMood": "sad",
+      "id": 17
+    },
+    {
+      "dateOfEntry": "2020-05-22",
+      "conceptsCovered": "Worked on Nutshell and Presented with Joe",
+      "longForm": "Today I got the first part of Events in NutShell working. ",
+      "myMood": "happy",
+      "id": 18
+    },
+    {
+      "dateOfEntry": "2020-05-23",
+      "conceptsCovered": "Radio Buttons, The legend element HTML",
+      "longForm": "Woke up in the morning and was able to jump right in to Part 8 of Daily Journal, I'm taking it slow and trying to digest the information.",
+      "myMood": "happy",
+      "id": 19
+    }
+  ]
+}
